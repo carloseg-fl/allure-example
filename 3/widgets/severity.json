@@ -1,0 +1,81 @@
+[ {
+  "uid" : "b859e2f970d7656c",
+  "name" : "Given deleted entries on JSON Path map, should reflect JSON document",
+  "time" : {
+    "start" : 1619206214679,
+    "stop" : 1619206214680,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afde1efe4e1d6157",
+  "name" : "Given a map of JSONPath, should build a JSON document",
+  "time" : {
+    "start" : 1619206214689,
+    "stop" : 1619206214691,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79dabeebb98c13d1",
+  "name" : "Given delete with missing root '$', should add it",
+  "time" : {
+    "start" : 1619206214661,
+    "stop" : 1619206214663,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e9b2109ae35d1a8",
+  "name" : "Given custom JSON mapper, should use it",
+  "time" : {
+    "start" : 1619206214697,
+    "stop" : 1619206216303,
+    "duration" : 1606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0e24645702412c6",
+  "name" : "Given a map of JSONPath, should build a Map",
+  "time" : {
+    "start" : 1619206214683,
+    "stop" : 1619206214686,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9055b7e591f7dc3d",
+  "name" : "Should build empty JSON",
+  "time" : {
+    "start" : 1619206214693,
+    "stop" : 1619206214694,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d59562e4efed6569",
+  "name" : "Given put with missing root '$', should add it",
+  "time" : {
+    "start" : 1619206214673,
+    "stop" : 1619206214674,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "127347346e556a11",
+  "name" : "Given put passing a map, should add it",
+  "time" : {
+    "start" : 1619206214248,
+    "stop" : 1619206214579,
+    "duration" : 331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

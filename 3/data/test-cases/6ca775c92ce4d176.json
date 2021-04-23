@@ -1,0 +1,55 @@
+{
+  "uid" : "6ca775c92ce4d176",
+  "name" : "Should build empty JSON",
+  "fullName" : "com.acme.JsonBuilderTest$Build.empty",
+  "historyId" : "ca2e7c7318604ecab02c813250cf8603",
+  "time" : {
+    "start" : 1619206201376,
+    "stop" : 1619206201376,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-864"
+  }, {
+    "name" : "thread",
+    "value" : "2949@fv-az74-864.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testClass",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testMethod",
+    "value" : "empty"
+  }, {
+    "name" : "suite",
+    "value" : "Build"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ca775c92ce4d176.json",
+  "parameterValues" : [ ]
+}
