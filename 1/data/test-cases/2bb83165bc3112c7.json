@@ -1,0 +1,55 @@
+{
+  "uid" : "2bb83165bc3112c7",
+  "name" : "Given custom JSON mapper, should use it",
+  "fullName" : "com.acme.JsonBuilderTest$Build.customMapper",
+  "historyId" : "85c0c20a411c284e658233fca8007a2b",
+  "time" : {
+    "start" : 1619205421363,
+    "stop" : 1619205422816,
+    "duration" : 1453
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az28-663"
+  }, {
+    "name" : "thread",
+    "value" : "3003@fv-az28-663.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testClass",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testMethod",
+    "value" : "customMapper"
+  }, {
+    "name" : "suite",
+    "value" : "Build"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bb83165bc3112c7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,162 @@
+{
+  "9fa4b9c6cd2fa846d0b725f15d4c886b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b72b71ff926ac817",
+      "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/b72b71ff926ac817",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205430276,
+        "stop" : 1619205430277,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8f692244c1cbed2d3da7bd544e2f226d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9c86177d33794d1",
+      "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/c9c86177d33794d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205430293,
+        "stop" : 1619205430296,
+        "duration" : 3
+      }
+    } ]
+  },
+  "540df1225f409c18ae6f8ef591af21df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c3458dc2acf46bd",
+      "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/2c3458dc2acf46bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205429736,
+        "stop" : 1619205430130,
+        "duration" : 394
+      }
+    } ]
+  },
+  "76d3d8e9299cd98d4cf6354ab7b3d6f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ff84e20a0b51ed2",
+      "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/4ff84e20a0b51ed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205430280,
+        "stop" : 1619205430284,
+        "duration" : 4
+      }
+    } ]
+  },
+  "85c0c20a411c284e658233fca8007a2b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "596654b5ff699bd1",
+      "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/596654b5ff699bd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205430304,
+        "stop" : 1619205431635,
+        "duration" : 1331
+      }
+    } ]
+  },
+  "8122a903c34420283ff0f77772a5bb8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab958df47ac4f6a3",
+      "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/ab958df47ac4f6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205430264,
+        "stop" : 1619205430266,
+        "duration" : 2
+      }
+    } ]
+  },
+  "45f0bd8b3ebaf9f1fc793323982127da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "576a6f07d2280282",
+      "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/576a6f07d2280282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205430239,
+        "stop" : 1619205430243,
+        "duration" : 4
+      }
+    } ]
+  },
+  "ca2e7c7318604ecab02c813250cf8603" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab6446a8c39f2c2d",
+      "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/ab6446a8c39f2c2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205430301,
+        "stop" : 1619205430302,
+        "duration" : 1
+      }
+    } ]
+  }
+}
