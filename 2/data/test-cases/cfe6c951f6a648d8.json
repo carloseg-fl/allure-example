@@ -1,0 +1,85 @@
+{
+  "uid" : "cfe6c951f6a648d8",
+  "name" : "Should build empty JSON",
+  "fullName" : "com.acme.JsonBuilderTest$Build.empty",
+  "historyId" : "ca2e7c7318604ecab02c813250cf8603",
+  "time" : {
+    "start" : 1619205973940,
+    "stop" : 1619205973940,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az204-802"
+  }, {
+    "name" : "thread",
+    "value" : "3211@fv-az204-802.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testClass",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testMethod",
+    "value" : "empty"
+  }, {
+    "name" : "suite",
+    "value" : "Build"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7b77b74b35dc9297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619205964271,
+        "stop" : 1619205964272,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ab6446a8c39f2c2d",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/ab6446a8c39f2c2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619205430301,
+          "stop" : 1619205430302,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cfe6c951f6a648d8.json",
+  "parameterValues" : [ ]
+}

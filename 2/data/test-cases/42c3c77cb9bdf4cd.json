@@ -1,0 +1,55 @@
+{
+  "uid" : "42c3c77cb9bdf4cd",
+  "name" : "Given a map of JSONPath, should build a JSON document",
+  "fullName" : "com.acme.JsonBuilderTest$Build.build",
+  "historyId" : "8f692244c1cbed2d3da7bd544e2f226d",
+  "time" : {
+    "start" : 1619205964263,
+    "stop" : 1619205964266,
+    "duration" : 3
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az204-802"
+  }, {
+    "name" : "thread",
+    "value" : "3079@fv-az204-802.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testClass",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testMethod",
+    "value" : "build"
+  }, {
+    "name" : "suite",
+    "value" : "Build"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42c3c77cb9bdf4cd.json",
+  "parameterValues" : [ ]
+}
