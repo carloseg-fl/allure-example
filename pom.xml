@@ -18,122 +18,122 @@
     <aspectj.version>1.9.1</aspectj.version>
     <allure.version>2.13.6</allure.version>
     <junit5.version>5.7.0</junit5.version>
-</properties>
+  </properties>
 
-<dependencies>
+  <dependencies>
 
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.12.3</version>
-    </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.12.3</version>
+      </dependency>
 
-    <dependency>
-      <groupId>com.jayway.jsonpath</groupId>
-      <artifactId>json-path</artifactId>
-      <version>2.5.0</version>
-    </dependency>
+      <dependency>
+        <groupId>com.jayway.jsonpath</groupId>
+        <artifactId>json-path</artifactId>
+        <version>2.5.0</version>
+      </dependency>
 
-    <dependency>
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-core</artifactId>
-      <version>2.2</version>
-      <scope>test</scope>
-    </dependency>
+      <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest-core</artifactId>
+        <version>2.2</version>
+        <scope>test</scope>
+      </dependency>
 
-    <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-core</artifactId>
-      <version>3.9.0</version>
-      <scope>test</scope>
-    </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>3.9.0</version>
+        <scope>test</scope>
+      </dependency>
 
-    <!-- Junit 5 -->
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>${junit5.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>${junit5.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-params</artifactId>
-        <version>${junit5.version}</version>
-    </dependency>
+      <!-- Junit 5 -->
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter-api</artifactId>
+          <version>${junit5.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter-engine</artifactId>
+          <version>${junit5.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter-params</artifactId>
+          <version>${junit5.version}</version>
+      </dependency>
 
-    <!-- Allure --> 
-    <dependency>
-        <groupId>io.qameta.allure</groupId>
-        <artifactId>allure-junit5</artifactId>
-        <version>${allure.version}</version>
-    </dependency>
-</dependencies>
+      <!-- Allure --> 
+      <dependency>
+          <groupId>io.qameta.allure</groupId>
+          <artifactId>allure-junit5</artifactId>
+          <version>${allure.version}</version>
+      </dependency>
+  </dependencies>
 
-<build>
-    <plugins>
+  <build>
+      <plugins>
 
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.22.2</version>
-            <configuration>
-                <testFailureIgnore>false</testFailureIgnore>
-                <argLine>
-                    -Dfile.encoding=UTF-8
-                    -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                </argLine>
-                <systemPropertyVariables>
-                    <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-surefire-plugin</artifactId>
+              <version>2.22.2</version>
+              <configuration>
+                  <testFailureIgnore>false</testFailureIgnore>
+                  <argLine>
+                      -Dfile.encoding=UTF-8
+                      -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                  </argLine>
+                  <systemPropertyVariables>
+                      <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
 
-                    <junit.jupiter.extensions.autodetection.enabled>true</junit.jupiter.extensions.autodetection.enabled>
-                    <junit.jupiter.execution.parallel.enabled>true</junit.jupiter.execution.parallel.enabled>
-                    <junit.jupiter.execution.parallel.config.strategy>dynamic</junit.jupiter.execution.parallel.config.strategy>
-                </systemPropertyVariables>
-            </configuration>
-            <dependencies>
-              <dependency>
-                <groupId>org.aspectj</groupId>
-                <artifactId>aspectjweaver</artifactId>
-                <version>1.9.1</version>
-              </dependency>
-              <dependency>
-                <groupId>org.junit.jupiter</groupId>
-                <artifactId>junit-jupiter-api</artifactId>
-                <version>5.7.1</version>
-              </dependency>
-              <dependency>
-                <groupId>org.junit.jupiter</groupId>
-                <artifactId>junit-jupiter-engine</artifactId>
-                <version>5.7.1</version>
-              </dependency>
-            </dependencies>
-        </plugin>
+                      <junit.jupiter.extensions.autodetection.enabled>true</junit.jupiter.extensions.autodetection.enabled>
+                      <junit.jupiter.execution.parallel.enabled>true</junit.jupiter.execution.parallel.enabled>
+                      <junit.jupiter.execution.parallel.config.strategy>dynamic</junit.jupiter.execution.parallel.config.strategy>
+                  </systemPropertyVariables>
+              </configuration>
+              <dependencies>
+                <dependency>
+                  <groupId>org.aspectj</groupId>
+                  <artifactId>aspectjweaver</artifactId>
+                  <version>1.9.1</version>
+                </dependency>
+                <dependency>
+                  <groupId>org.junit.jupiter</groupId>
+                  <artifactId>junit-jupiter-api</artifactId>
+                  <version>5.7.1</version>
+                </dependency>
+                <dependency>
+                  <groupId>org.junit.jupiter</groupId>
+                  <artifactId>junit-jupiter-engine</artifactId>
+                  <version>5.7.1</version>
+                </dependency>
+              </dependencies>
+          </plugin>
 
-        <plugin>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-maven</artifactId>
-            <version>2.10.0</version>
-            <configuration>
-                <reportVersion>${allure.version}</reportVersion>
-                <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
-            </configuration>
-        </plugin>
+          <plugin>
+              <groupId>io.qameta.allure</groupId>
+              <artifactId>allure-maven</artifactId>
+              <version>2.10.0</version>
+              <configuration>
+                  <reportVersion>${allure.version}</reportVersion>
+                  <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+              </configuration>
+          </plugin>
 
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version>
-            <configuration>
-                <source>1.8</source>
-                <target>1.8</target>
-            </configuration>
-        </plugin>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>3.8.1</version>
+              <configuration>
+                  <source>1.8</source>
+                  <target>1.8</target>
+              </configuration>
+          </plugin>
 
-    </plugins>
-</build>
+      </plugins>
+  </build>
 
 </project>  
