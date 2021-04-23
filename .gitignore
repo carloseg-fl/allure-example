@@ -1,0 +1,16 @@
+# Maven
+/target/
+
+# Eclipse
+.classpath
+.profile
+.settings
+.project
+
+# Vscode
+.vscode
+.metals
+
+# Idea
+.idea
+*.iml
