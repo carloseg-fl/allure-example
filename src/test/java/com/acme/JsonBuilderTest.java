@@ -3,6 +3,7 @@ package com.acme;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.MissingNode;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -20,6 +21,7 @@ public class JsonBuilderTest {
 
     @Nested
     @DisplayName("Build")
+    @Feature("Mapping values")
     class Build {
 
         @Test
@@ -118,6 +120,7 @@ public class JsonBuilderTest {
 
     @Nested
     @DisplayName("JSONPath")
+    @Feature("Mapping keys")
     class Path {
 
         @Test
@@ -154,6 +157,7 @@ public class JsonBuilderTest {
 
     @Nested
     @DisplayName("Put")
+    @Feature("Mapping values")
     class Put {
 
         @Test
