@@ -25,7 +25,7 @@ public class JsonBuilderTest {
     class Build {
 
         @Test
-        @DisplayName("Given paths and values, should build a JSONNode")
+        @DisplayName("Given paths and values, should build a JsonNode")
         void build() throws Exception {
             // Test
             JsonNode node = JsonBuilder.builder()
@@ -110,7 +110,7 @@ public class JsonBuilderTest {
         }
 
         @Test
-        @DisplayName("Should build empty JSONNode")
+        @DisplayName("Should build empty JsonNode")
         public void empty() throws Exception {
             // Test
             JsonNode node = JsonBuilder.buildEmpty();
@@ -124,7 +124,7 @@ public class JsonBuilderTest {
     class Path {
 
         @Test
-        @DisplayName("Given path has missing root '$', should add '$' to the path before put a value")
+        @DisplayName("Given path has missing root '$', should fix the path before put a value")
         void build() throws Exception {
             // Test
             JsonNode node = JsonBuilder.builder()
@@ -138,7 +138,7 @@ public class JsonBuilderTest {
         }
 
         @Test
-        @DisplayName("Given path has missing root '$', should add '$' to the path before delete a value")
+        @DisplayName("Given path has missing root '$', should fix the path before delete a value")
         public void delete() throws Exception {
             // Test
             JsonBuilder builder = JsonBuilder.builder()
@@ -161,7 +161,7 @@ public class JsonBuilderTest {
     class Put {
 
         @Test
-        @DisplayName("Given entrie is Map, should add it")
+        @DisplayName("Given entry is Map, should map it as JsonNode")
         void putMap() throws Exception {
             Map<?, ?> map = JsonBuilder.builder()
                     .put("$.user.firstName", "John")
