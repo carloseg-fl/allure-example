@@ -20,21 +20,21 @@ import static org.mockito.Mockito.*;
 public class JsonBuilderTest {
 
     @Nested
-    @DisplayName("Build")
+    @DisplayName("Build object")
     @Feature("Mapping values")
     class Build {
 
         @Test
-        @DisplayName("Given a map of JSONPath, should build a JSON document")
+        @DisplayName("Given paths and values, should build a JSONNode")
         void build() throws Exception {
             // Test
             JsonNode node = JsonBuilder.builder()
-              .put("$.user.firstName", "John")
-              .put("$.user.lastName", "Doe")
-              .put("$.user.friends[*]", "Marco")
-              .put("$.user.friends[*]", "Polo")
-              .put("$.user.details.social[*]", "{\"facebook\": \"url\"}")
-              .build();
+                    .put("$.user.firstName", "John")
+                    .put("$.user.lastName", "Doe")
+                    .put("$.user.friends[*]", "Marco")
+                    .put("$.user.friends[*]", "Polo")
+                    .put("$.user.details.social[*]", "{\"facebook\": \"url\"}")
+                    .build();
 
             JsonNode userNode = node.get("user");
             assertThat(userNode.get("firstName").asText(), equalTo("John"));
@@ -45,16 +45,16 @@ public class JsonBuilderTest {
         }
 
         @Test
-        @DisplayName("Given a map of JSONPath, should build a Map")
+        @DisplayName("Given paths and values, should build a Map")
         void buildAsMap() throws Exception {
             // Test
             Map<?, ?> map = JsonBuilder.builder()
-              .put("$.user.firstName", "John")
-              .put("$.user.lastName", "Doe")
-              .put("$.user.friends[*]", "Marco")
-              .put("$.user.friends[*]", "Polo")
-              .put("$.user.details.social[*]", "{\"facebook\": \"url\"}")
-              .buildAsMap();
+                    .put("$.user.firstName", "John")
+                    .put("$.user.lastName", "Doe")
+                    .put("$.user.friends[*]", "Marco")
+                    .put("$.user.friends[*]", "Polo")
+                    .put("$.user.details.social[*]", "{\"facebook\": \"url\"}")
+                    .buildAsMap();
 
             Map<?, ?> userMap = (Map<?, ?>) map.get("user");
             assertThat(userMap.get("firstName"), equalTo("John"));
@@ -64,39 +64,39 @@ public class JsonBuilderTest {
         }
 
         @Test
-        @DisplayName("Given custom JSON mapper, should use it")
+        @DisplayName("Given custom ObjectMapper, should use it to map values")
         void customMapper() throws Exception {
             // Mocks
             ObjectMapper mapperMock = mock(ObjectMapper.class);
             when(mapperMock.readTree(anyString()))
-              .thenReturn(MissingNode.getInstance());
+                    .thenReturn(MissingNode.getInstance());
 
             // Test
             JsonBuilder.builder()
-              .put("$.user.firstName", "John")
-              .build();
+                    .put("$.user.firstName", "John")
+                    .build();
 
             // Check mock
             verify(mapperMock, never())
-              .readTree(anyString());
+                    .readTree(anyString());
 
             // Test
             JsonBuilder.builder(mapperMock)
-              .put("$.user.firstName", "John")
-              .build();
+                    .put("$.user.firstName", "John")
+                    .build();
 
             // Check mock
             verify(mapperMock, times(1))
-              .readTree(anyString());
+                    .readTree(anyString());
         }
 
         @Test
-        @DisplayName("Given deleted entries on JSON Path map, should reflect JSON document")
+        @DisplayName("Given paths, should delete corresponding values")
         public void delete() throws Exception {
             // Test
             JsonBuilder builder = JsonBuilder.builder()
-              .put("$.user.firstName", "John")
-              .put("$.user.lastName", "Doe");
+                    .put("$.user.firstName", "John")
+                    .put("$.user.lastName", "Doe");
 
             JsonNode node = builder.build();
             assertThat(node.get("user").has("firstName"), is(true));
@@ -110,7 +110,7 @@ public class JsonBuilderTest {
         }
 
         @Test
-        @DisplayName("Should build empty JSON")
+        @DisplayName("Should build empty JSONNode")
         public void empty() throws Exception {
             // Test
             JsonNode node = JsonBuilder.buildEmpty();
@@ -119,18 +119,18 @@ public class JsonBuilderTest {
     }
 
     @Nested
-    @DisplayName("JSONPath")
+    @DisplayName("Entries path")
     @Feature("Mapping keys")
     class Path {
 
         @Test
-        @DisplayName("Given put with missing root '$', should add it")
+        @DisplayName("Given path has missing root '$', should add '$' to the path before put a value")
         void build() throws Exception {
             // Test
             JsonNode node = JsonBuilder.builder()
-              .put("$.user.firstName", "John")
-              .put("user.lastName", "Doe") // missing $
-              .build();
+                    .put("$.user.firstName", "John")
+                    .put("user.lastName", "Doe") // missing $
+                    .build();
 
             JsonNode userNode = node.get("user");
             assertThat(userNode.get("firstName").asText(), equalTo("John"));
@@ -138,12 +138,12 @@ public class JsonBuilderTest {
         }
 
         @Test
-        @DisplayName("Given delete with missing root '$', should add it")
+        @DisplayName("Given path has missing root '$', should add '$' to the path before delete a value")
         public void delete() throws Exception {
             // Test
             JsonBuilder builder = JsonBuilder.builder()
-              .put("$.user.firstName", "John")
-              .put("$.user.lastName", "Doe");
+                    .put("$.user.firstName", "John")
+                    .put("$.user.lastName", "Doe");
 
             builder.build();
 
@@ -156,20 +156,22 @@ public class JsonBuilderTest {
     }
 
     @Nested
-    @DisplayName("Put")
+    @DisplayName("Put entries")
     @Feature("Mapping values")
     class Put {
 
         @Test
-        @DisplayName("Given put passing a map, should add it")
+        @DisplayName("Given entrie is Map, should add it")
         void putMap() throws Exception {
+            Map<?, ?> map = JsonBuilder.builder()
+                    .put("$.user.firstName", "John")
+                    .put("$.user.lastName", "Doe")
+                    .buildAsMap();
+
             // Test
             JsonNode node = JsonBuilder.builder()
-              .put("$.nested",  JsonBuilder.builder()
-              .put("$.user.firstName", "John")
-              .put("$.user.lastName", "Doe")
-              .buildAsMap()
-            ).build();
+                    .put("$.nested", map)
+                    .build();
 
             JsonNode userNode = node.get("nested").get("user");
             assertThat(userNode.get("firstName").asText(), equalTo("John"));
