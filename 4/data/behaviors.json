@@ -1,0 +1,117 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Mapping values",
+    "children" : [ {
+      "name" : "Given put passing a map, should add it",
+      "uid" : "400f1954bbac139d",
+      "parentUid" : "7bb4f00c7ed0a72beb96badbcc705168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622835117713,
+        "stop" : 1622835117975,
+        "duration" : 262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given deleted entries on JSON Path map, should reflect JSON document",
+      "uid" : "67fe495c293c9f57",
+      "parentUid" : "7bb4f00c7ed0a72beb96badbcc705168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622835118124,
+        "stop" : 1622835118125,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given a map of JSONPath, should build a Map",
+      "uid" : "8d6e9b079f3efd79",
+      "parentUid" : "7bb4f00c7ed0a72beb96badbcc705168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622835118127,
+        "stop" : 1622835118130,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given a map of JSONPath, should build a JSON document",
+      "uid" : "6439a062cfb69d62",
+      "parentUid" : "7bb4f00c7ed0a72beb96badbcc705168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622835118132,
+        "stop" : 1622835118136,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should build empty JSON",
+      "uid" : "37162c9ec8060749",
+      "parentUid" : "7bb4f00c7ed0a72beb96badbcc705168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622835118139,
+        "stop" : 1622835118141,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given custom JSON mapper, should use it",
+      "uid" : "cf82638cca973831",
+      "parentUid" : "7bb4f00c7ed0a72beb96badbcc705168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622835118144,
+        "stop" : 1622835119673,
+        "duration" : 1529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7bb4f00c7ed0a72beb96badbcc705168"
+  }, {
+    "name" : "Mapping keys",
+    "children" : [ {
+      "name" : "Given delete with missing root '$', should add it",
+      "uid" : "b21562c19093e0c3",
+      "parentUid" : "54eccd2e2d249bd58d78370bc9b84b1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622835118101,
+        "stop" : 1622835118103,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given put with missing root '$', should add it",
+      "uid" : "7681683456111b61",
+      "parentUid" : "54eccd2e2d249bd58d78370bc9b84b1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622835118119,
+        "stop" : 1622835118120,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "54eccd2e2d249bd58d78370bc9b84b1d"
+  } ],
+  "name" : "behaviors"
+}
