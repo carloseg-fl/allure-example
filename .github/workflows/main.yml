@@ -3,7 +3,7 @@ name: mail
 on:
   push:
     branches-ignore:
-      - '!main'
+      - '!master'
   pull_request:
     types: [ opened, synchronize, reopened ]
 jobs:

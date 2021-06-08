@@ -174,7 +174,7 @@ public class JsonBuilderTest {
                     .build();
 
             JsonNode userNode = node.get("nested").get("user");
-            assertThat(userNode.get("firstName").asText(), equalTo("Johnddd"));
+            assertThat(userNode.get("firstName").asText(), equalTo("John"));
             assertThat(userNode.get("lastName").asText(), equalTo("Doe"));
         }
 
