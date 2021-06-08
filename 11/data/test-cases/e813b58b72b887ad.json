@@ -1,0 +1,169 @@
+{
+  "uid" : "e813b58b72b887ad",
+  "name" : "Given paths and values, should build a Map",
+  "fullName" : "com.acme.JsonBuilderTest$Build.buildAsMap",
+  "historyId" : "76d3d8e9299cd98d4cf6354ab7b3d6f3",
+  "time" : {
+    "start" : 1623179954763,
+    "stop" : 1623179954768,
+    "duration" : 5
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mapping values"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-164"
+  }, {
+    "name" : "thread",
+    "value" : "3262@fv-az77-164.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testClass",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testMethod",
+    "value" : "buildAsMap"
+  }, {
+    "name" : "suite",
+    "value" : "Build object"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "42c9c31235e921aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623179940883,
+        "stop" : 1623179940887,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "a68e77f2137668e2",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/10//#testresult/a68e77f2137668e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623179751137,
+          "stop" : 1623179751139,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "7078aa14c564681e",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/9//#testresult/7078aa14c564681e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623176977146,
+          "stop" : 1623176977148,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "51e106b603cece7f",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/8//#testresult/51e106b603cece7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623175936617,
+          "stop" : 1623175936619,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "335780d41f4a178a",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/7//#testresult/335780d41f4a178a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622836773745,
+          "stop" : 1622836773747,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "bc9160a7d0e37201",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/6//#testresult/bc9160a7d0e37201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622836613920,
+          "stop" : 1622836613924,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "70d17d83b418f9f9",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/5//#testresult/70d17d83b418f9f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622836472973,
+          "stop" : 1622836472981,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "8d6e9b079f3efd79",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/4//#testresult/8d6e9b079f3efd79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622835118127,
+          "stop" : 1622835118130,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "d0e24645702412c6",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/3//#testresult/d0e24645702412c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619206214683,
+          "stop" : 1619206214686,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "11649bdc22cf15b3",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/2//#testresult/11649bdc22cf15b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619205973917,
+          "stop" : 1619205973925,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "4ff84e20a0b51ed2",
+        "reportUrl" : "https://carloseg-fl.github.io/allure-example/1//#testresult/4ff84e20a0b51ed2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619205430280,
+          "stop" : 1619205430284,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e813b58b72b887ad.json",
+  "parameterValues" : [ ]
+}
