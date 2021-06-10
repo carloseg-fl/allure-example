@@ -2,7 +2,7 @@ name: Main pipeline
 
 on:
   push:
-    branches-ignore:
+    branches:
       - '!master'
   pull_request:
     types: [ opened, synchronize, reopened ]
