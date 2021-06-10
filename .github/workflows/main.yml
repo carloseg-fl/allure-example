@@ -3,7 +3,7 @@ name: Main pipeline
 on:
   push:
     branches-ignore:
-      - '!master'
+      - master
   pull_request:
     types: [ opened, synchronize, reopened ]
 jobs:
