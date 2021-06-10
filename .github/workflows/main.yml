@@ -3,9 +3,12 @@ name: Main pipeline
 on:
   push:
     branches:
-      - '!master'
+      - master
   pull_request:
+    branches:
+      - '!master'
     types: [ opened, synchronize, reopened ]
+
 jobs:
   autotests:
     name: Run tests and generate Allure Report
