@@ -56,7 +56,7 @@ jobs:
         run: mvn -B verify -Denv=github
         continue-on-error: true
 
-      #Allure
+      # Allure
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
