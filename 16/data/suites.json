@@ -1,0 +1,121 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Put entries",
+    "children" : [ {
+      "name" : "Given entry is Map, should map it as JsonNode",
+      "uid" : "407008b8ad1f7694",
+      "parentUid" : "f6fba88e0a8fa84eb00c0938a8264a59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623342258847,
+        "stop" : 1623342259063,
+        "duration" : 216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f6fba88e0a8fa84eb00c0938a8264a59"
+  }, {
+    "name" : "Entries path",
+    "children" : [ {
+      "name" : "Given path has missing root '$', should fix the path before delete a value",
+      "uid" : "d2fbc4f4903e2108",
+      "parentUid" : "0856c89753c58ed304bd5a9a21ad708e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623342259184,
+        "stop" : 1623342259189,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given path has missing root '$', should fix the path before put a value",
+      "uid" : "192bf658c1af57e5",
+      "parentUid" : "0856c89753c58ed304bd5a9a21ad708e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623342259207,
+        "stop" : 1623342259208,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0856c89753c58ed304bd5a9a21ad708e"
+  }, {
+    "name" : "Build object",
+    "children" : [ {
+      "name" : "Given paths, should delete corresponding values",
+      "uid" : "33bee48c892d21ce",
+      "parentUid" : "32cffc027ba9cce8558f965a961fac75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623342259216,
+        "stop" : 1623342259219,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given paths and values, should build a Map",
+      "uid" : "a1daf928bd3711e8",
+      "parentUid" : "32cffc027ba9cce8558f965a961fac75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623342259224,
+        "stop" : 1623342259227,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given paths and values, should build a JsonNode",
+      "uid" : "19bbdf8447107f",
+      "parentUid" : "32cffc027ba9cce8558f965a961fac75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623342259232,
+        "stop" : 1623342259234,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should build empty JsonNode",
+      "uid" : "b51deecda8aa702c",
+      "parentUid" : "32cffc027ba9cce8558f965a961fac75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623342259240,
+        "stop" : 1623342259242,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Given custom ObjectMapper, should use it to map values",
+      "uid" : "aa7735b90e189c20",
+      "parentUid" : "32cffc027ba9cce8558f965a961fac75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623342259247,
+        "stop" : 1623342260688,
+        "duration" : 1441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "32cffc027ba9cce8558f965a961fac75"
+  } ],
+  "name" : "suites"
+}
