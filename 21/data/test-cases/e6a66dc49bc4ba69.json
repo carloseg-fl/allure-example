@@ -1,0 +1,58 @@
+{
+  "uid" : "e6a66dc49bc4ba69",
+  "name" : "Given path has missing root '$', should fix the path before delete a value",
+  "fullName" : "com.acme.JsonBuilderTest$Path.delete",
+  "historyId" : "45f0bd8b3ebaf9f1fc793323982127da",
+  "time" : {
+    "start" : 1623342497762,
+    "stop" : 1623342497765,
+    "duration" : 3
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mapping keys"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-864"
+  }, {
+    "name" : "thread",
+    "value" : "2937@fv-az81-864.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.acme.JsonBuilderTest$Path"
+  }, {
+    "name" : "testClass",
+    "value" : "com.acme.JsonBuilderTest$Path"
+  }, {
+    "name" : "testMethod",
+    "value" : "delete"
+  }, {
+    "name" : "suite",
+    "value" : "Entries path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6a66dc49bc4ba69.json",
+  "parameterValues" : [ ]
+}
