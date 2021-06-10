@@ -1,0 +1,58 @@
+{
+  "uid" : "a8fe8327a7fd0582",
+  "name" : "Given paths and values, should build a JsonNode",
+  "fullName" : "com.acme.JsonBuilderTest$Build.build",
+  "historyId" : "8f692244c1cbed2d3da7bd544e2f226d",
+  "time" : {
+    "start" : 1623343055439,
+    "stop" : 1623343055441,
+    "duration" : 2
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mapping values"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-424"
+  }, {
+    "name" : "thread",
+    "value" : "2996@fv-az77-424.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testClass",
+    "value" : "com.acme.JsonBuilderTest$Build"
+  }, {
+    "name" : "testMethod",
+    "value" : "build"
+  }, {
+    "name" : "suite",
+    "value" : "Build object"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8fe8327a7fd0582.json",
+  "parameterValues" : [ ]
+}

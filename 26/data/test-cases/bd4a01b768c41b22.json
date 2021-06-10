@@ -1,0 +1,58 @@
+{
+  "uid" : "bd4a01b768c41b22",
+  "name" : "Given entry is Map, should map it as JsonNode",
+  "fullName" : "com.acme.JsonBuilderTest$Put.putMap",
+  "historyId" : "540df1225f409c18ae6f8ef591af21df",
+  "time" : {
+    "start" : 1623343055050,
+    "stop" : 1623343055282,
+    "duration" : 232
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mapping values"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-424"
+  }, {
+    "name" : "thread",
+    "value" : "2996@fv-az77-424.ForkJoinPool-1-worker-3(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.acme.JsonBuilderTest$Put"
+  }, {
+    "name" : "testClass",
+    "value" : "com.acme.JsonBuilderTest$Put"
+  }, {
+    "name" : "testMethod",
+    "value" : "putMap"
+  }, {
+    "name" : "suite",
+    "value" : "Put entries"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd4a01b768c41b22.json",
+  "parameterValues" : [ ]
+}
