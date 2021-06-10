@@ -1,0 +1,81 @@
+[ {
+  "uid" : "7e8766c7f8c91b4",
+  "name" : "Given custom ObjectMapper, should use it to map values",
+  "time" : {
+    "start" : 1623342301299,
+    "stop" : 1623342302700,
+    "duration" : 1401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cda555a1a3169883",
+  "name" : "Given paths, should delete corresponding values",
+  "time" : {
+    "start" : 1623342301283,
+    "stop" : 1623342301284,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a0874e54ec757d7",
+  "name" : "Given entry is Map, should map it as JsonNode",
+  "time" : {
+    "start" : 1623342300927,
+    "stop" : 1623342301174,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ef3dea9f1e6cd14",
+  "name" : "Should build empty JsonNode",
+  "time" : {
+    "start" : 1623342301296,
+    "stop" : 1623342301297,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "381f4d26da041c94",
+  "name" : "Given paths and values, should build a Map",
+  "time" : {
+    "start" : 1623342301287,
+    "stop" : 1623342301290,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8de47d00952e3ff",
+  "name" : "Given paths and values, should build a JsonNode",
+  "time" : {
+    "start" : 1623342301292,
+    "stop" : 1623342301294,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a44e8cc3e695863e",
+  "name" : "Given path has missing root '$', should fix the path before put a value",
+  "time" : {
+    "start" : 1623342301277,
+    "stop" : 1623342301278,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efbfea311ecf2b97",
+  "name" : "Given path has missing root '$', should fix the path before delete a value",
+  "time" : {
+    "start" : 1623342301260,
+    "stop" : 1623342301264,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
