@@ -1,0 +1,125 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.acme",
+    "children" : [ {
+      "name" : "JsonBuilderTest$Put",
+      "children" : [ {
+        "name" : "putMap",
+        "uid" : "7a6b4a3a429b63a5",
+        "parentUid" : "0270b88505b30c38b9490ea09e0edf2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623342673549,
+          "stop" : 1623342673815,
+          "duration" : 266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0270b88505b30c38b9490ea09e0edf2e"
+    }, {
+      "name" : "JsonBuilderTest$Path",
+      "children" : [ {
+        "name" : "delete",
+        "uid" : "573c7b7139261cd",
+        "parentUid" : "51a3e790ff7e5f72988f70e53fd9cf76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623342673980,
+          "stop" : 1623342673982,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "build",
+        "uid" : "3576c7b8488fe86e",
+        "parentUid" : "51a3e790ff7e5f72988f70e53fd9cf76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623342673992,
+          "stop" : 1623342673994,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51a3e790ff7e5f72988f70e53fd9cf76"
+    }, {
+      "name" : "JsonBuilderTest$Build",
+      "children" : [ {
+        "name" : "delete",
+        "uid" : "4ace4ae440c516e7",
+        "parentUid" : "001aef3753094eaf4c335a59e163c25d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623342673998,
+          "stop" : 1623342673999,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "buildAsMap",
+        "uid" : "7ae8b284c8a62124",
+        "parentUid" : "001aef3753094eaf4c335a59e163c25d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623342674002,
+          "stop" : 1623342674011,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "build",
+        "uid" : "c10874c359e3c5f0",
+        "parentUid" : "001aef3753094eaf4c335a59e163c25d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623342674013,
+          "stop" : 1623342674015,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "empty",
+        "uid" : "47c781616625e6f6",
+        "parentUid" : "001aef3753094eaf4c335a59e163c25d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623342674019,
+          "stop" : 1623342674019,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "customMapper",
+        "uid" : "9b9ca895d20bced4",
+        "parentUid" : "001aef3753094eaf4c335a59e163c25d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623342674022,
+          "stop" : 1623342675292,
+          "duration" : 1270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "001aef3753094eaf4c335a59e163c25d"
+    } ],
+    "uid" : "com.acme"
+  } ],
+  "name" : "packages"
+}
