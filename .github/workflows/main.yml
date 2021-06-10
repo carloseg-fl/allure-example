@@ -1,4 +1,4 @@
-name: mail
+name: Main pipelines
 
 on:
   push:
