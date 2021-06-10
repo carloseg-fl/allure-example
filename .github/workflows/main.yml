@@ -3,9 +3,12 @@ name: Main pipeline
 on:
   push:
     branches:
-      - '!master'
+      - master
   pull_request:
+    branches:
+      - master
     types: [ opened, synchronize, reopened ]
+
 jobs:
   autotests:
     name: Run tests and generate Allure Report
@@ -56,7 +59,7 @@ jobs:
         run: mvn -B verify -Denv=github
         continue-on-error: true
 
-      #Allure
+      # Allure
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
